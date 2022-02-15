@@ -1,3 +1,26 @@
+## visp (galactic) - 3.5.0-3
+
+The packages in the `visp` repository were released into the `galactic` distro by running `/usr/bin/bloom-release visp --ros-distro galactic --track galactic` on `Tue, 15 Feb 2022 18:36:04 -0000`
+
+The `visp` package was released.
+
+Version of package(s) in repository `visp`:
+
+- upstream repository: https://github.com/lagadic/visp.git
+- release repository: https://github.com/lagadic/visp-release.git
+- rosdistro version: `3.4.0-2`
+- old version: `3.5.0-2`
+- new version: `3.5.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## visp (foxy) - 3.5.0-3
 
 The packages in the `visp` repository were released into the `foxy` distro by running `/usr/bin/bloom-release visp --ros-distro foxy --track foxy` on `Tue, 15 Feb 2022 18:11:11 -0000`
