@@ -1,0 +1,31 @@
+From 9b6ced83f072135b36df8e7efb018e5f2863f1ae Mon Sep 17 00:00:00 2001
+From: Fabien Spindler <Fabien.Spindler@inria.fr>
+Date: Tue, 15 Feb 2022 19:24:46 +0100
+Subject: [PATCH] Add install rule for package.xml and disable testing
+
+---
+ CMakeLists.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 18c9a24d..0f67a98e 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -693,11 +693,13 @@ VP_CHECK_PACKAGE(Log1p)
+ # Dashboards are sent to https://cdash-ci.inria.fr/index.php?project=ViSP
+ #----------------------------------------------------------------------
+ if(BUILD_TESTS)
+-  enable_testing()
++  #enable_testing()
+   mark_as_advanced(DART_ROOT)
+   mark_as_advanced(BUILD_TESTING)
+ endif()
+ 
++install(FILES package.xml DESTINATION share/visp)
++
+ #----------------------------------------------------------------------
+ # Try to find doxygen for documentation generation
+ # Use "make visp_doc" target to generate the documentation
+-- 
+2.25.1
+
