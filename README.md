@@ -1,85 +1,62 @@
-## visp (galactic) - 3.5.0-3
+## visp (kilted) - 3.7.0-2
 
-The packages in the `visp` repository were released into the `galactic` distro by running `/usr/bin/bloom-release visp --ros-distro galactic --track galactic` on `Tue, 15 Feb 2022 18:36:04 -0000`
+The packages in the `visp` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted visp` on `Mon, 16 Feb 2026 10:04:11 -0000`
 
 The `visp` package was released.
 
 Version of package(s) in repository `visp`:
 
 - upstream repository: https://github.com/lagadic/visp.git
-- release repository: https://github.com/lagadic/visp-release.git
-- rosdistro version: `3.4.0-2`
-- old version: `3.5.0-2`
-- new version: `3.5.0-3`
+- release repository: https://github.com/ros2-gbp/visp-release.git
+- rosdistro version: `3.5.0-4`
+- old version: `3.7.0-1`
+- new version: `3.7.0-2`
 
 Versions of tools used:
 
-- bloom version: `0.10.7`
-- catkin_pkg version: `0.4.24`
-- rosdep version: `0.21.0`
-- rosdistro version: `0.8.3`
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
 - vcstools version: `0.1.42`
 
 
-## visp (foxy) - 3.5.0-3
+## visp (kilted) - 3.7.0-1
 
-The packages in the `visp` repository were released into the `foxy` distro by running `/usr/bin/bloom-release visp --ros-distro foxy --track foxy` on `Tue, 15 Feb 2022 18:11:11 -0000`
+The packages in the `visp` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted visp` on `Mon, 16 Feb 2026 09:30:37 -0000`
 
 The `visp` package was released.
 
 Version of package(s) in repository `visp`:
 
 - upstream repository: https://github.com/lagadic/visp.git
-- release repository: https://github.com/lagadic/visp-release.git
-- rosdistro version: `3.4.0-2`
-- old version: `3.5.0-2`
-- new version: `3.5.0-3`
+- release repository: https://github.com/ros2-gbp/visp-release.git
+- rosdistro version: `3.5.0-4`
+- old version: `3.5.0-4`
+- new version: `3.7.0-1`
 
 Versions of tools used:
 
-- bloom version: `0.10.7`
-- catkin_pkg version: `0.4.24`
-- rosdep version: `0.21.0`
-- rosdistro version: `0.8.3`
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
 - vcstools version: `0.1.42`
 
 
-## visp (noetic) - 3.5.0-3
+## visp (rolling) - 3.5.0-1
 
-The packages in the `visp` repository were released into the `noetic` distro by running `/usr/bin/bloom-release visp --ros-distro noetic --track noetic` on `Tue, 15 Feb 2022 17:52:18 -0000`
+The packages in the `visp` repository were released into the `rolling` distro by running `/usr/bin/bloom-release visp --ros-distro rolling --track rolling` on `Tue, 22 Feb 2022 11:32:08 -0000`
 
 The `visp` package was released.
 
 Version of package(s) in repository `visp`:
 
 - upstream repository: https://github.com/lagadic/visp.git
-- release repository: https://github.com/lagadic/visp-release.git
-- rosdistro version: `3.4.0-7`
-- old version: `3.5.0-2`
-- new version: `3.5.0-3`
-
-Versions of tools used:
-
-- bloom version: `0.10.7`
-- catkin_pkg version: `0.4.24`
-- rosdep version: `0.21.0`
-- rosdistro version: `0.8.3`
-- vcstools version: `0.1.42`
-
-
-## visp (melodic) - 3.5.0-3
-
-The packages in the `visp` repository were released into the `melodic` distro by running `/usr/bin/bloom-release visp --ros-distro melodic --track melodic` on `Tue, 15 Feb 2022 17:28:43 -0000`
-
-The `visp` package was released.
-
-Version of package(s) in repository `visp`:
-
-- upstream repository: https://github.com/lagadic/visp.git
-- release repository: https://github.com/lagadic/visp-release.git
-- rosdistro version: `3.4.0-4`
-- old version: `3.5.0-2`
-- new version: `3.5.0-3`
+- release repository: https://github.com/ros2-gbp/visp-release.git
+- rosdistro version: `3.4.0-3`
+- old version: `3.4.0-3`
+- new version: `3.5.0-1`
 
 Versions of tools used:
 
