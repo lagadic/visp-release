@@ -261,6 +261,8 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc} --os-name rhel
     config:
+      # Specify where the package.xml file to be injected is located
+      ros_package_template_branch: bloom-template
       cmake_args: ["-DENABLE_VISP_NAMESPACE=ON"]
     devel_branch: null
     last_release: v3.7.0
